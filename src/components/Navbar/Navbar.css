@@ -1,0 +1,149 @@
+section{
+    width: 100%;
+    height: 16vh;
+    border: 1px solid rgb(241, 231, 231); 
+    position: fixed;
+    background-color: white;
+}
+
+section img{
+    height: 46vh;
+    position: absolute;
+    top: -16.6vh;
+    left: -5vw;
+    cursor: pointer;
+}
+section p{
+      position: relative;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 200; 
+      font-size: 1.5rem;
+      left:7vw ;
+      top: 8vh;
+      z-index: 100;
+
+}
+
+ section ul{
+    display: flex;
+    position: absolute;
+    left: 45.2vw;
+}
+section li{
+    list-style: none;
+    margin: -7vh 4.5vw 0 0;
+    font-family: 'Rajdhani', sans-serif;  
+    font-weight: 900; 
+    font-size: 1.5rem;
+    color: black;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+section a:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.Qoute{
+    background-color: rgb(0, 153, 56);
+    border-radius: 1vw;
+    width: 8vw;
+    height: 6vh;
+    padding: 1vh 1vw 0vh 2vw;
+    color: white; 
+}
+.Qoute:hover{
+    color: black;
+    border-bottom: none;
+    background-color: lightgreen;
+}
+.mobilenavigation{
+  display: none;
+}
+
+  /* Media queries for max-width of 1850px */
+@media all and (max-width: 1550px) {
+
+section li{
+   font-size: 1.25rem;
+}
+
+}
+
+ /* Media queries for max-width of 1300px */
+@media all and (max-width: 1350px) {
+section ul{
+   left: 43vw;
+}
+}
+
+ /* Media queries for max-width of 1300px */
+@media all and (max-width: 1280px) {
+
+section li{
+    font-size: 1rem;
+}
+}
+
+ /* Media queries for max-width of 1038px */
+@media all and (max-width: 1038px) {
+section{
+   display: none;
+}
+
+
+.mobilenavigation{
+  display: flex;
+}
+
+.mobilenavigation ul{
+    display: block;
+    position: absolute;
+    right:0%;
+    top: 7vh;
+    background: white;
+    z-index: 100;
+    height: 40vh;
+    
+
+}
+
+.mobilenavigation li{
+    list-style: none;
+    margin: 2vh 4.5vw 0 0;
+    font-family: 'Rajdhani', sans-serif;  
+    font-weight: 900; 
+    font-size: 1.5rem;
+    color: black;
+}
+
+.mobilenavigation a{
+    text-decoration: none;
+    color: black;
+}
+.mobilenavigation a:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.Qoute{
+    background-color: rgb(0, 153, 56);
+    border-radius: 1vw;
+    width: 20vw;
+    height: 6vh;
+    padding: 1vh 1vw 0vh 8vw;
+}
+.Qoute:hover{
+    color: white; 
+    border-bottom: none;
+    background-color: lightgreen;
+}
+.button{
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    z-index: 100;
+    
+}
+
+}

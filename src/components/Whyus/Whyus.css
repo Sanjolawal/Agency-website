@@ -1,0 +1,324 @@
+
+ article{
+ background-color: white;
+ position: absolute;
+ top: 16vh;
+ height: 100vh;
+ width: 100vw;
+}
+.about-con{
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    border-top-left-radius: 16%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 16%;
+    border-bottom-right-radius: 5%;
+    background-color: rgb(224, 240, 229);
+}
+article h1{
+    position: absolute;
+    left: 46vw;
+    top: 3vh;
+    color: rgb(0, 153, 56);
+    font-size: 3rem;
+}
+.qoutes{
+    position: absolute;
+    left: 38vw;
+    top: 14vh;
+    color:rgb(112, 106, 106);
+    font-size: 1.6rem;
+}
+article span{
+    position: absolute;
+    top: 40vh;
+    font-family:'Rajdhani', sans-serif;  
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0 10vw 0 10vw;
+}
+article h2{
+ position: absolute;
+ top: 174vh;
+ font-size: 3rem;
+ z-index: 100;
+ color: rgb(112, 106, 106);
+ left: 40vw;
+}
+.brands-img{
+position: absolute;
+top: 184vh;
+left: 9vw;
+}
+article section{
+    position: absolute;
+    top: 220vh;
+    width: 80vw;
+    height: 105vh;
+    left: 10vw;
+    right: 10vw;
+    background-color: rgb(225, 240, 229);
+    border-radius: 3%;
+    box-shadow: 0px 10px green;
+}
+section h3{
+  font-size: 3rem;
+  position: absolute;
+  left: 14vw;
+  top: 3vh;
+}
+section h4{
+    font-size: 1.5rem;
+    background-color: rgb(0, 153, 56);
+    color: white;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    padding: 1.5vh 0 0 1.4vw;
+    position: absolute;
+    top: 16vh;
+    left: 6vw;
+}
+section h5{
+    font-size: 1.5rem;
+    background-color: rgb(0, 153, 56);
+    color: white;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    padding: 1.5vh 0 0 1.4vw;
+    position: absolute;
+    top: 34vh;
+    left: 6vw;
+}
+section h6{
+    font-size: 1.5rem;
+    background-color: rgb(0, 153, 56);
+    color: white;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    padding: 1.5vh 0 0 1.4vw;
+    position: absolute;
+    top: 48vh;
+    left: 6vw;
+}
+section .h1{
+    font-size: 1.5rem;
+    background-color: rgb(0, 153, 56);
+    color: white;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    padding: 1.5vh 0 0 1.4vw;
+    position: absolute;
+    top: 64vh;
+    left: 6vw;
+}
+section .h2{
+    font-size: 1.5rem;
+    background-color: rgb(0, 153, 56);
+    color: white;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    padding: 1.5vh 0 0 1.4vw;
+    position: absolute;
+    top: 80vh;
+    left: 6vw;
+}
+.title{
+    position: absolute;
+    top: 19vh;
+    left: 10vw;
+    font-weight: bold;
+    color: black;
+}
+.title2{
+    position: absolute;
+    top: 38vh;
+    left: 10vw;
+    font-weight: bold;
+    color: black;
+}
+.title3{
+    position: absolute;
+    top: 54vh;
+    left: 10vw;
+    font-weight: bold;
+    color: black;
+}
+.title4{
+    position: absolute;
+    top: 70vh;
+    left: 10vw;
+    font-weight: bold;
+    color: black;
+}
+.title5{
+    position: absolute;
+    top: 86vh;
+    left: 10vw;
+    font-weight: bold;
+    color: black;
+}
+.subtitle{
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+    right: 5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    opacity: 0.5;
+}
+.subtitle2{
+    position: absolute;
+    top: 44vh;
+    left: 10vw;
+    right: 5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    opacity: 0.5;
+}
+.subtitle3{
+    position: absolute;
+    top: 61vh;
+    left: 10vw;
+    right: 5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    opacity: 0.5;
+}
+.subtitle4{
+    position: absolute;
+    top: 77vh;
+    left: 10vw;
+    right: 5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    opacity: 0.5;
+}
+.subtitle5{
+    position: absolute;
+    top: 93vh;
+    left: 10vw;
+    right: 5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    opacity: 0.5;
+}
+.con{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(224, 240, 229);
+    position: absolute;
+    top: 372vh; 
+}
+.con-1{
+    position: absolute;
+    top: 1vh;
+    left: 20vw;
+    color: rgb(11, 105, 47);
+    font-size: 3rem;
+}
+.con-2{
+    position: absolute;
+    top: 18vh;
+    left: 44vw;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(237, 127, 66);
+    border: none;
+    border-radius: 10px;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.whyus-review{
+    position: absolute;
+    top: 202vh;
+}
+.whyus-footer{
+    position: absolute;
+    top: 398vh;
+}
+
+@media all and (max-width: 1038px){
+    article span{
+    font-size: 1.1rem;
+}
+article h2{
+ top: 154vh;
+ left: 30vw;
+}
+.brands-img{
+position: absolute;
+top: 170vh;
+left: 1vw;
+width: 100%;
+}
+article section{
+    top: 200vh;
+    display: block;
+}
+article section h3{
+    font-size: 2.5rem;
+    left: 7vw;
+}
+.con{
+  top: 360vh;
+}
+.whyus-review{
+  top: 190vh;
+}
+.whyus-footer{
+  top: 384vh;
+}
+}
+
+@media all and (max-width: 750px){
+    article h1{
+        font-size: 2rem;
+        left: 40vw;
+    }
+    .qoutes{
+        font-size: 1.2rem;
+        left: 18vw;
+    }
+    article h2{
+   top: 212vh;
+    }
+    .brands-img{
+    top: 236vh;
+    z-index: 100;
+    }
+    article section{
+        display: none;
+    }
+    .con-12{
+        z-index: 100;
+         position: absolute;
+        margin-left: 10vw;
+        margin-top: 18vh;
+        color: rgb(11, 105, 47);
+        font-size: 1.4rem;
+    }
+    .con-20{
+      position: absolute;
+      margin-left: 36vw;
+      margin-top: 22vh;
+      background-color: chocolate;
+      color: white;
+      height: 6vh;
+      border-radius: 10px;
+      border: none;
+      z-index: 100;
+      
+}
+
+
+}

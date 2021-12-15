@@ -1,0 +1,140 @@
+.pricing{
+    background-color: rgb(0, 153, 56);
+    width: 100vw;
+    height: 50vh;
+}
+.pricing-h1{
+ color:rgb(255, 255, 255);
+ font-size: 4rem;
+ position: absolute;
+ top: 20vh;
+ left: 41vw;
+}
+.pricing-info{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 36vh;
+    left: 15vw;
+    font-size: 1.4rem;
+}
+.more-info{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 56vh;
+    left: 12vw;
+    right: 12vw;
+    font-size: 1.4rem;  
+}
+.packages{
+width: 24vw;
+height: 40vh;
+position: absolute;
+top: 86vh;
+left: 20vw;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0px 0px 20px -8px;
+}
+.packages2{
+width: 24vw;
+height: 40vh;
+position: absolute;
+top: 86vh;
+left: 60vw;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0px 0px 20px -8px;  
+}
+.package-con{
+    background: linear-gradient(to right, rgb(0,153,56), rgb(129, 224, 164));
+    border-radius: 10px;
+    position: relative;
+    top: -3vh;
+}
+.package-con2{
+    background: linear-gradient(to right, rgb(0,153,56), rgb(129, 224, 164));
+    border-radius: 10px;
+    position: relative;
+    top: -3vh;
+}
+.package-h1{
+  position: relative;
+  left: 6vw;
+  color: white;
+}
+.package-h2{
+  position: relative;
+  left: 1vw;
+  color: white;
+  font-size: 2rem;
+}
+.package-info, .package-info2{
+    position: relative;
+    top: -2vh;
+    left: 0.5vw;
+    right: 0.5vw;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.link, .link2{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Rajdhani', sans-serif ;
+    font-weight: 700;
+    line-height: 5vh;
+    left: 0.8vw;
+}
+
+.pricing-con{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(224, 240, 229);
+    position: absolute;
+    top: 170vh;
+}
+.pricing-footer{
+    position: absolute;
+    top: 196vh;
+}
+
+@media all and (max-width: 1038px){
+    .pricing-info{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 36vh;
+    left: 5vw;
+    font-size: 1.2rem;
+}
+
+  .package-h1{
+  position: relative;
+  left: 6vw;
+  color: white;
+}
+.package-h2{
+  position: relative;
+  left: 1vw;
+  color: white;
+  font-size: 2rem;
+}
+.package-info, .package-info2{
+    
+    font-size: 1rem;
+}
+
+.package-h1{
+  left: 3vw;
+
+}
+.package-h2{
+  font-size: 1.5rem;
+}
+
+.link, .link2{
+    font-size: 1rem;
+    line-height: 3vh;
+   
+}
+
+}

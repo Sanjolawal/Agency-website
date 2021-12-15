@@ -1,0 +1,348 @@
+body{
+    margin: 0 0 0 0;
+    
+}
+
+
+                              /* Review component styling */
+.review{
+    background-color: rgb(0, 153, 56);
+    width: 100vw;
+    height: 40vh;
+    position:absolute;
+    top: 130vh;
+
+}
+
+.review-img{
+    width: 10vw;
+    height: 20vh;
+    margin-left: 45vw;
+    border-radius: 50%;
+    margin-top: 2vh;
+    background-color: burlywood;
+    object-fit: cover;
+}
+.reviewer-com{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    margin-left: 20vw;
+}
+.reviewer-name{
+    color:rgb(253, 253, 253);
+    font-size: 1.5rem;
+    margin-left: 46.5vw;
+    margin-top: 2vh;
+}
+.you{
+     width: 20vw;
+     height: 60vh;
+     position: relative;
+     top: 106vh;
+     left: 8vw;
+     border-radius: 10px;
+}
+
+                                /* Business portfolio styling */
+
+.portfolio-h1{
+ color:rgb(255, 255, 255);
+ font-size: 4rem;
+ position: absolute;
+ top: 20vh;
+ left: 28vw;
+}
+.portfolio-info{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 36vh;
+    left: 7vw;
+    font-size: 1.4rem;
+}
+.port-h1{
+   position: absolute;
+   right: 40vw;
+   top: 70vh;
+   color: rgb(0, 231, 116,0.2);
+   font-size: 4rem;
+}
+                 
+.first-tb{
+     width: 20vw;
+     height: 98vh;
+     background-color: rgb(255, 255, 255);
+     position: relative;
+     top: 44vh;
+     left: 10vw;
+     border-radius: 10px;
+     box-shadow: 0 0 20px -10px;
+}
+.bus-p{
+    background: linear-gradient(to right, rgb(0, 153, 56), rgb(255,255,255)) ;
+    width: 100%;
+    height: 8vh;
+    border-radius: 5%;
+    position: relative;
+    top: -7vh;   
+}
+.bus-p1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-left: -1vw;
+    position: relative;
+    top: 0.3vh;
+
+}
+.bus-p2{
+    position: relative;
+    top: 0.4vh;
+    left: 1vw;
+    line-height: 6vh;
+}
+.link1{
+    font-size: 2rem;
+    position: relative;
+    left: 4vw;
+}
+
+.first-tb2{
+     width: 20vw;
+     height: 98vh;
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     top: 97vh;
+     left: 42vw;
+     border-radius: 10px;
+     box-shadow: 0 0 20px -10px;
+}
+.first-tb3{
+     width: 20vw;
+     height: 98vh;
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     top: 97vh;
+     left: 72vw;
+     border-radius: 10px;
+     box-shadow: 0 0 20px -10px;
+}
+.more-info1{
+    position: absolute;
+    top:200vh ;
+    font-size: 1.4rem;
+    left: 10vw;
+    right: 10vw;
+    color: green;
+}
+                            /* Restaurant page styling */
+.restaurant-h1{
+ color:rgb(255, 255, 255);
+ font-size: 4rem;
+ position: absolute;
+ top: 20vh;
+ left: 24vw;
+}
+.restaurant-info{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 36vh;
+    left: 11vw;
+    font-size: 1.4rem;
+}
+
+              /* footer styling for all the link route in pricing page */
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(0, 153, 56);
+    position: relative;
+    top: 70vh;
+}
+ .ul3{
+    display:flex ;
+    position: relative;
+    top: 5vh;
+    margin-left: 30vw;
+    
+} 
+ .li3{
+    list-style: none;
+    font-size: 2rem;
+    margin-right: 4vw;
+    color:white;
+} 
+ .footer-p{
+    position: relative;
+    top: 8vh;
+    margin-left: 26vw;
+    font-size: 1.4rem;
+    color: white;
+} 
+ .footer-info{
+    position: relative;
+    top: 12vh;
+    margin-left: 4vw;
+    font-size: 1.2rem;
+    color: white;
+} 
+
+                           /* Main footer styling for all the links in navbar */
+.M-footer{
+  background-color: rgb(224, 240, 229);
+  width: 100vw;
+  height: 14vh;
+}
+.M-ul{
+display: flex;
+margin-left: 30vw;
+padding-top: 5vh;
+
+}
+.M-li{
+list-style: none;
+font-size: 1.2rem;
+margin-left: 4vw;
+font-weight: bold;
+color: rgb(11, 105, 47);
+}
+.M-info{
+    color: rgb(11, 105, 47);
+    margin-left: 32.5vw;
+}
+
+       
+
+   /* Media queries for max-width of 1400px */
+@media all and (max-width: 1400px) {
+
+.bus-p2{
+    line-height: 5vh;
+    font-size: 1.4rem;
+}
+
+}
+
+@media all and (max-width: 1038px){
+    .review-img{
+    width: 14vw;
+    border-radius: 50%;
+}
+.reviewer-com{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin-left: 10vw;
+}
+
+.portfolio-h1{
+ font-size: 3rem;
+}
+.portfolio-info{
+    
+    left: 1vw;
+    font-size: 1.2rem;
+}
+
+.restaurant-h1{
+ color:rgb(255, 255, 255);
+ font-size: 3rem;
+ position: absolute;
+ top: 20vh;
+ left: 24vw;
+}
+.restaurant-info{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 36vh;
+    left: 2vw;
+    font-size: 1.2rem;
+}
+
+.first-tb{
+    display: block;
+}
+
+.bus-p2{
+    
+    line-height: 4.5vh;
+    font-size: 1.2rem;
+}
+.link1{
+    left: 2vw;
+}
+
+.first-tb2{
+    display: block;
+}
+
+.first-tb3{
+    display: block;
+}
+
+.ul3{
+    margin-left: 20vw;
+    
+} 
+ 
+ .footer-p{
+    margin-left: 10vw;
+   
+} 
+ .footer-info{
+    margin-left: 1vw;
+    font-size: 1rem;
+   
+} 
+
+
+
+}
+
+@media all and (max-width: 750px){
+   
+.M-footer{
+  background-color: rgb(224, 240, 229);
+  width: 100vw;
+  height: 20vh;
+  position: relative;
+  top: -24vh;
+}
+   
+    .M-ul{
+display: flex;
+margin-left: 6vw;
+
+
+}
+.M-li{
+list-style: none;
+font-size: 1.2rem;
+margin-left: 4vw;
+font-weight: bold;
+color: rgb(11, 105, 47);
+}
+.M-info{
+    color: rgb(11, 105, 47);
+    margin-left: 1vw;
+    font-size: 0.88rem;
+}
+
+}
+
+@media all and (max-width:750px){
+    .review-img{
+    width: 28vw;
+    margin-left: 36vw;
+}
+.reviewer-com{
+    font-size: 1rem;
+    margin-left: 6vw;
+}
+.reviewer-name{
+    margin-left: 38.5vw;
+
+}
+}
+
+
+
+       

@@ -1,0 +1,246 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    position: relative;
+    top: 17vh;
+    height: 84vh;
+    width: 100vw;
+    /* background: radial-gradient(closest-corner, rgb(134, 189, 150) 1%, white 95%); */
+}
+.sec-gr{
+    width: 54vw;
+    height: 90vh;
+    background: rgb(109, 192, 140);
+    /* filter: blur(30px); */
+    position: absolute;
+    top: -6vh;
+    left: 10vw;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius:45% ;
+    border-bottom-left-radius:20% ;
+    border-top-right-radius: 20%;
+    filter: blur(150px);
+}
+header h1{
+    color: rgb(0, 153, 56); 
+    font-size: 4rem;
+    font-weight: bold;
+    position: absolute;
+    left: 3vw;
+    top: 18vh;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+header p{
+    font-size: 2rem;
+    position: absolute;
+    left: 3vw;
+    top: 43vh;
+    color: rgb(112, 106, 106); 
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-weight: 900;
+}
+header button{
+    font-size: 2rem;
+    position: absolute;
+    top: 67vh;
+    left: 5vw;
+    border-radius: 1vw;
+    width: 14vw;
+    height: 8vh;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    background-color: rgb(0,153,56);
+    color: white; 
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800; 
+    
+}
+header button:hover{
+    background: lightgreen;
+}
+header img{
+    position: absolute;
+    left: 45vw;
+    width: 48vw;
+    top: 6vh;
+    object-fit: cover;
+    
+}
+.first{
+    width: 30vw;
+    height:60vh;
+    background-color: rgba(245, 245, 245, 0.2);
+    border: 0px solid lightgreen;
+    border-radius: 50%;
+    position: absolute;
+    left: 52vw;
+    top: 10vh;
+    
+}
+.topic{
+ position: absolute;
+ top: 90vh;
+ font-size: 3rem;
+ z-index: 100;
+ color: rgb(112, 106, 106);
+ left: 36vw;
+}
+.brands-img1{
+position: absolute;
+top: 104vh;
+left: 8vw;
+}
+.header-review{
+position: absolute;
+top: 10vh ;
+background-color:rgb(119, 196, 147);
+}
+.header-con{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(224, 240, 229);
+    position: absolute;
+    top: 180vh;
+}
+.header-footer{
+    position: absolute;
+    top: 206vh;
+}
+
+@media all and (max-width: 1400px) {
+
+header button{
+   font-size: 1.7rem;
+}
+
+.brands-img1{
+    left: 4vw;
+}
+
+}
+
+ /* Media queries for max-width of 1300px */
+@media all and (max-width: 1300px) {
+.brands-img1{
+   left: 1vw;
+}
+header img{
+    width: 48vw;
+    right: 54vw;
+}
+}
+
+ /* Media queries for max-width of 1300px */
+@media all and (max-width: 1280px) {
+header img{
+    width: 44vw;
+    left: 52vw;
+    top: 10vh;
+}
+
+.brands-img1{
+   left: 2vw;
+   width: 96vw;
+}
+header button{
+  font-size: 1rem;
+}
+section li{
+    font-size: 1rem;
+}
+}
+
+@media all and (max-width: 1038px){
+    header img{
+    position: absolute;
+    left: 56vw;
+    width: 36vw;
+    top: 20vh;
+    object-fit: cover; 
+    }
+    header h1{
+       font-size: 3rem;
+    }
+
+   .brands-img1{
+      position: absolute;
+      top: 112vh;
+      left: 0vw;
+}
+
+   
+
+}
+
+@media all and (max-width: 750px){
+    
+    header h1{ 
+    font-size: 2rem;
+    left: 14vw;
+    top: -11vh;
+    width: 60vw;  
+}
+header p{
+    font-size: 1.4rem;
+    left: 14vw;
+    top: 46vh;
+}
+header button{
+    font-size: 1.4rem;
+    top: 66vh;
+    left: 30vw;
+    border-radius: 10px;
+    width: 40vw;
+    height: 6vh;
+    
+}
+
+header img{
+    left:10vw ;
+    width: 80vw;
+    top: 12vh;    
+}
+
+.topic{
+ top: 90vh;
+ font-size: 2rem;
+ left: 20vw;
+}
+.brands-img1{
+position: absolute;
+top: 100vh;
+left: 2vw;
+}
+.header-review{
+position: absolute;
+top: -16vh ;
+background-color:rgb(119, 196, 147);
+}
+.header-con{
+    width: 100vw;
+    height: 74vh;
+    background-color: rgb(224, 240, 229);
+    position: absolute;
+    top: 154vh;
+}
+.con1-p{
+   font-size: 1.6rem;
+   position: absolute;
+   left: -14vw;
+   width: 90vw;
+}
+.con-2{
+  position: absolute;
+  margin-left: -11vw;
+  margin-top: -2vh;
+}
+.header-footer{
+    position: absolute;
+    top: 206vh;
+}
+
+
+}
