@@ -1,6 +1,6 @@
 import React from 'react'
 import header from "./images/header.png"
-import image from "./images/2.png"
+import image from "./images/2.png "
 
 
   let review = [
