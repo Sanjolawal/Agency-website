@@ -11,7 +11,7 @@ const Footer = () => {
               <li className="M-li">Pricing</li>
           </ul>
           <p className="M-info" >Copyright 2021 Draweb agency, all rights reserved. 
-              Modern website design that sells</p>
+              Modern website design that sells </p>
           </div>  
         </>
     )
