@@ -37,7 +37,7 @@ return(
         <p data-aos="zoom-in"data-aos-duration="2000" >Reach millions conversion and sales <br/> with our creative design<br/> and error free development.</p>
         <div className='first'/>
         <img src = {monitor} alt ='Electronic' data-aos="fade-left" data-aos-duration="2000" />
-        <button data-aos="slide-right">Get a qoute</button>
+        <button data-aos="slide-right">Get a qoute </button>
     </header>
     <h2 className="topic" data-aos="slide-up" > Our recent customers</h2>
 <img src={brands} alt="brands logo" className="brands-img1"/>
